@@ -6,6 +6,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
+/** The @EnableEurekaClient annotation is not required anymore */
 @EnableEurekaClient
 @EnableFeignClients
 public class CustomerApplication {

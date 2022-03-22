@@ -12,7 +12,6 @@ import javax.persistence.*;
 @Data generate code :
     - getters @Getter
     - setters @Setter
-    - constructor @RequiredArgsConstructor
     - equals and hashcode @EqualsAndHashCode
     - toString @ToString
  */

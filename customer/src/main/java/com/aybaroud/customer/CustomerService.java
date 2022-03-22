@@ -50,12 +50,8 @@ public class CustomerService {
         FraudCheckResponse fraudCheckResponse =
                 fraudFeignClient.getFraudCheck(customer.getId());
 
-
         if (fraudCheckResponse.fraudulentCustomer) {
             throw new IllegalStateException("fraudster");
         }
-
-
-
     }
 }

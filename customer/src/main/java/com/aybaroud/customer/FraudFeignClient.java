@@ -5,6 +5,7 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
+/** Annotation for interfaces declaring that a REST client with that interface should be created */
 @FeignClient(name = "fraud")
 public interface FraudFeignClient {
 

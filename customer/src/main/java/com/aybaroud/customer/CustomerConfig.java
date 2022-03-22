@@ -8,6 +8,8 @@ import org.springframework.web.client.RestTemplate;
 @Configuration
 public class CustomerConfig {
 
+    /**The @LoadBalanced annotation on the RestTemplate indicates that
+    we want it to be load balanced */
     @Bean
     @LoadBalanced
     public RestTemplate restTemplate(){
