@@ -16,7 +16,7 @@ public class FraudCheckController {
     private final FraudCheckService fraudCheckService;
 
     @GetMapping(path = "{customerId}")
-    public FraudCheckResponse isFrauduster(@PathVariable Integer customerId){
+    public FraudCheckResponse isFraudster(@PathVariable Integer customerId){
         boolean fraudulentCustomer = fraudCheckService.isFraudulentCustomer(customerId);
         return new FraudCheckResponse(fraudulentCustomer);
     }

@@ -1,4 +1,4 @@
-package com.aybaroud.customer;
+package com.aybaroud.customer.model;
 
 public class FraudCheckResponse {
 

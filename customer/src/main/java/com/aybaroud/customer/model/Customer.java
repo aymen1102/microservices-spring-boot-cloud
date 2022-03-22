@@ -1,4 +1,4 @@
-package com.aybaroud.customer;
+package com.aybaroud.customer.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
