@@ -1,13 +1,13 @@
-package com.aybaroud.customer;
+package com.aybaroud.customer.service;
 
+import com.aybaroud.customer.repository.CustomerRepository;
+import com.aybaroud.customer.FraudFeignClient;
 import com.aybaroud.customer.model.Customer;
 import com.aybaroud.customer.model.CustomerRequest;
 import com.aybaroud.customer.model.FraudCheckResponse;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
-import org.springframework.web.reactive.function.client.WebClient;
-import reactor.core.publisher.Mono;
 
 @Service
 @AllArgsConstructor

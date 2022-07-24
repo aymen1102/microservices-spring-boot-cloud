@@ -1,4 +1,4 @@
-package com.aybaroud.customer;
+package com.aybaroud.customer.repository;
 
 import com.aybaroud.customer.model.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;

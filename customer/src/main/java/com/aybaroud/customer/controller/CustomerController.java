@@ -1,6 +1,7 @@
-package com.aybaroud.customer;
+package com.aybaroud.customer.controller;
 
 import com.aybaroud.customer.model.CustomerRequest;
+import com.aybaroud.customer.service.CustomerService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
